@@ -1,0 +1,39 @@
+/* Forecast.css */
+
+/* Style for the 5-Day Weather Forecast heading */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the table headers (th) */
+  th {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  /* Style for the table data cells (td) */
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style for the odd rows (alternating row colors) */
+  tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for the table footer (if needed) */
+  tfoot {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,27 @@
+/* NavBar.css */
+
+.nav-bar {
+    background-color: #333; /* Background color */
+    color: white; /* Text color */
+    display: flex;
+    
+    align-items: center;
+    padding: 10px 20px; /* Add padding to the top and bottom, and left and right */
+  }
+  .nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+  }
+  .nav-link {
+    text-decoration: none; /* Remove underlines from links */
+    color: white; /* Text color for links */
+    margin: 0 10px; 
+    /* Add spacing between links */
+  }
+  
+  .nav-link.active {
+    font-weight: bold; /* Make the active link text bold */
+  }
+  
